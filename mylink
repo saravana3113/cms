@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AU online learning</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+       <meta name="viewport" content="width=viewport-width,initial-scale=1.0px">
+    </head>
+    <body>
+        <div id="lib">
+        <h1 id="h1" ><img src="Shodwe.png" id="au"> Anna University
+            <span id="nav">
+                <li class="l1"><a href="home.html">HOME</a> |</li> 
+                <li class="l1"><a href="aboutus.html">ABOUT US</a> |</li> 
+                <li class="l1"><button onclick="droplist()">COURSES OFFERED</button> |</li> 
+                <li class="l1"><a href="http://localhost/iteproject/loginpg.php">STUDENT LOGIN</a> |</li> 
+                <li class="l1"><a href="#f">CONTACT US</a></li>
+            </span>
+            <br>Online Certification Courses
+            
+            <div id="d4" onmouseleave="droplist()">
+                <li><a href="#ece">Electronics and Communication Engineering</a></li>
+                <li><a href="#mech">Mechanical Engineering</a></li>
+                <li><a href="#cs">Computer Science and Engineering</a></li>
+                <li><a href="#it">Information Technology</a></li>
+            </div>
+            
+             </div>
+            </h1>
+        <center><br>
+          
+            <div style="height:0vh"  id="ece" style="margin:0%"></div>
+            
+		
+        <div ><marquee><b>Registration for JUL-DEC-2022 batches open Now! </b>
+        <span>-----Events:Examination Schedule for JAN-JUN-2022 batch <a>click-here!</a></span></marquee>
+        <hr style="border:5px solid rgb(10, 10, 78)" width='90%' align="center" >
+            <h2 style="margin:0px;padding-top:10px"> Faculty of Electronics Engineering</h2>
+            
+                <div class="cou1">
+                    <div class="slidc" >
+                    <div class="item"><img class="c1" src="electronics.jpg"><br>
+                    <center>Digital Signal Processing</center></div>
+                    <div class="item"><img class="c1" src="ece5.jpg"><br>
+                    <center>Circuit Theory Essentials</center></div>
+                    <div class="item"><img class="c1" src="ece3.jpg"><br>
+                    <center>Communication Systems</center></div>
+                    <div class="item"><img class="c1" src="ece4.jpg"><br>
+                    <center>Electronics for Information Sciences</center></div>
+                    <div class="item"><img class="c1" src="electronics2.jpg"><br>
+                        <center>Advanced Wireless Technology</center>
+                    </div>
+                </div>
+        </div>
+        <hr style="border:5px solid rgb(10, 10, 78)" width='90%' align="center" >
+            <div id="mech" ><h2 style="margin:0px;padding-top:10px"> Faculty of Mechanical Engineering</h2>
+            
+                <div class="cou1">
+                    <div class="slidc">
+                    <div class="item"><img class="c1" src="mech4.jpg"><br>
+                    <center>Dynamics and Control Systems</center></div>
+                    <div class="item"><img class="c1" src="mech2.jpg"><br>
+                    <center>Fluid Mechanics</center></div>
+                    <div class="item"><img class="c1" src="mech3.jpg"><br>
+                    <center>Materials and structural analysis</center></div>
+                    <div class="item"><img class="c1" src="mech1.jpg"><br>
+                    <center>Manufacturing Technology</center></div>
+                    <div class="item"><img class="c1" src="mech5.jpg"><br>
+                        <center>Engineering Mechanics</center>
+                    </div>
+                </div>
+        </div>
+        <hr style="border:5px solid rgb(10, 10, 78)" width='90%' align="center" >
+        <div   id="cs"><h2 style="margin:0px;padding-top:10px"> Faculty of Computer Science & Engineering</h2>
+            
+            <div class="cou1">
+                <div class="slidc" >
+                <div class="item"><img class="c1" src="cs1.jpg"><br>
+                <center>Cryptography Essentials</center></div>
+                <div class="item"><img class="c1" src="cs3.jpg"><br>
+                <center>Design and Analysis of Algorithms</center></div>
+                <div class="item"><img class="c1" src="cs2.jpg"><br>
+                <center>Machine Learning with Python</center></div>
+                <div class="item"><img class="c1" src="cs4.jpg"><br>
+                <center>Graphics and Image Processing</center></div>
+                <div class="item"><img class="c1" src="cs5.jpg"><br>
+                    <center>Computer Architecture</center>
+                </div>
+            </div>
+
+           
+    </div>
+    <hr style="border:5px solid rgb(10, 10, 78)" width='90%' align="center" >
+    <div id="it" ><h2 style="margin:0px;padding-top:10px"> Faculty of Information Technology</h2>
+            
+        <div class="cou1">
+            <div class="slidc">
+            <div class="item"><img class="c1" src="it1.jpg"><br>
+            <center>Artificial Intelligence</center></div>
+            <div class="item"><img class="c1" src="it4.jpg"><br>
+            <center>Big Data Analytics</center></div>
+            <div class="item"><img class="c1" src="it3.jpg"><br>
+            <center>Internet of Things</center></div>
+            <div class="item"><img class="c1" src="it2.jpg"><br>
+            <center>Database Management Systems</center></div>
+            <div class="item"><img class="c1" src="it5.jpg"><br>
+                <center>Cloud computing and Virtualisation</center>
+            </div>
+        </div>
+
+       
+</div>
+    </center>
+<footer id="f">
+    <div id="foot1">
+        <h3>Contact Us:</h3><br><address> Sardar Patel Road,<br><br>Anna University,<br><br>Chennai - 600 025.</address>
+        <br><img src="email.png"height="35px"></img><email>auchennai@gmail.com</email>
+        <br><br><img src="contact.png"height="35px" style="border-radius: 30px;">044 2235 7080 / 044 2235 7081
+    
+    
+    </div><hr>
+    <div id="foot2">
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7774.774187010958!2d80.22946362232938!3d13.011003816743116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f64332436e5f%3A0xb6f3e0a8c0889229!2sAnna%20University!5e0!3m2!1sen!2sin!4v1657946046981!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><hr>
+    <div id="foot3">
+        
+        <h3><img src="link.png"height="35px" style="border-radius: 30px;">   Other Important Links:</h3><br><br>
+        <ul>
+        <li><a class="oli" href="loginpg.html">Student Login</a><br><br>
+        <li><a class="oli" href="https://www.annauniv.edu/">Anna University - Home</a><br><br>
+        <li><a class="oli" href="https://onlinecde.annauniv.edu/">Center for Distance Education</a> <br><br>
+        <li><a class="oli" href="aboutus.html">About Us</a>
+    </ul>
+    <br><br><p>&copy; 2008 All rights reserved by University Computing Center</p>
+    </div>
+    
+</footer>
+</body>
+</html>
+</html>

@@ -1,0 +1,50 @@
+#nav{float:right;margin-right:60px;}
+a,li{
+    text-decoration:none;
+    color:rgb(10, 10, 78);
+}
+button{background:none;border:none;
+    color:rgb(10, 10, 10);font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bolder;font-size:20px;}
+.l1{display:inline;font-size:20px;color:rgb(8, 4, 31)}
+li:link{background-color: rgb(247, 123, 7);}
+#h1{margin:2px; background-image:url("aulib.webp");
+    background-repeat:no-repeat;background-size:cover;background-attachment: fixed;
+    color:bisque;height:90vh;width:100%;
+padding:25px;}
+#d4{
+    display:none;float:right;font-size:medium;font-style:oblique;margin-right:150px ;
+    background-color: rgb(5, 158, 185);border-radius:20px;padding:20px;width:20%
+}
+#l1{float:right}
+body{font-family: 'Roboto Condensed', sans-serif;
+background-attachment: fixed;
+background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("https://i.pinimg.com/originals/ef/a2/11/efa211f9e7bd8d1cd23c99bfc26f657d.jpg") ;
+}
+.c1{border:5px solid hwb(273 3% 72%);border-radius:10px;transition: 0.4s;
+    height:35vh;width:40vh;margin:20px;
+    margin-right:5px;margin-left:5px;
+    box-shadow:-7px -7px 5px -1px lightblue,5px 5px 5px -1px rgb(0, 0, 0,0.5);}
+
+.c1:hover{transform:scale(1.1,1.1);}
+#au{height:110px;width:110px;float:left;margin-right:30px;margin-left:0px;border-radius:70px;box-shadow:5px,5px,4px,4px,black}
+*{margin:0px;padding:0px}
+.cou1{display:block;width:100%;overflow-x:scroll;padding:35px;box-sizing:border-box;
+height:60%;}
+.cou1::-webkit-scrollbar{
+    -ms-overflow-style:none;
+    width:0%;
+   
+}
+.slidc{display: block;white-space:nowrap;height:40%;padding:40px;padding-left:0px}
+.item{display: inline-block;margin-right:30px;
+    padding-right:0px;padding-left:0px;
+    height:350px;border-radius:20px;padding:10px;font-weight:700;background:linear-gradient(rgba(4, 150, 247, 0.637),rgb(45, 12, 87,0.63));}
+footer{background-color:hsl(218, 66%, 14%);position:relative;display: inline-flex;color:white;
+width:100%;padding:30px;}
+#foot1{width:25%;padding:20px;font-size:large}
+#foot2{padding:20px}
+#foot3{padding:20px;padding-left:50px ;width:25%;font-size:large;}
+a.oli{color:white}
+#lib{width:100vw;height:50%;margin:0px}
+#libimg{width:100vw;height:70vh;margin:0px}
