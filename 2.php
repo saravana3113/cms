@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Student Login</title>
+    <title>Student Login for OCW</title>
     <link rel="stylesheet" href="loginstyle.css">
     <script src="login.js"></script>
 </head>
